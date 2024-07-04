@@ -5,6 +5,8 @@
     <title>Page Title</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
 
 </head>
 
@@ -16,19 +18,17 @@
     <h2 class="titulo2">Soy titulo secundario</h2>
     <h2 id="titulo-semiprincipal" class="titulo2">Soy titulo semiprincipal</h2>
 
+
+    <button type="button" onclick="cambiarTextoSemiPrincipal()">
+        Cambiar texto semi
+        </button>
     <button type="button" onclick="mostrarFecha()">
         Click me to display Date and Time.</button>
 
     <p id="demo"></p>
 
 
-    <script>
-
-        function mostrarFecha(){
-            document.getElementById('demo').innerHTML = Date();
-        }
-
-    </script>
+    
 
 </body>
 
