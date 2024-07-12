@@ -4,15 +4,13 @@ body {
 
 h1 {
     color: white;
-    text-align: center;
+    /* text-align: center; */
 }
 
 p {
     font-family: verdana;
     font-size: 20px;
 }
-
-
 
 .titulo2 {
     color: red;
@@ -21,3 +19,11 @@ p {
 #titulo-semiprincipal {
     text-decoration: underline;
 }
+
+/* .box-model {
+    margin: 20px;
+    border: 2px dotted white;
+    padding: 20px;
+    padding-left: 2px;
+} */
+
